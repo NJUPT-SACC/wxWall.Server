@@ -1,0 +1,43 @@
+{
+    "name": "wx-wall",
+    "version": "0.0.0",
+    "private": true,
+    "description": "Message wall connected with weixin.",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "prd": "pm2 start app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MZIchenjl/wxWall.git"
+    },
+    "keywords": [
+        "Weixin"
+    ],
+    "bugs": {
+        "url": "https://github.com/MZIchenjl/wxWall/issues"
+    },
+    "homepage": "https://github.com/MZIchenjl/wxWall#readme",
+    "dependencies": {
+        "body-parser": "^1.18.2",
+        "cookie-parser": "^1.4.3",
+        "cors": "^2.8.4",
+        "express": "^4.16.1",
+        "express-session": "^1.15.6",
+        "express-socket.io-session": "^1.3.2",
+        "lodash": "^4.17.4",
+        "morgan": "^1.9.0",
+        "node-fetch": "^1.7.3",
+        "redis": "^2.8.0",
+        "sha1": "^1.1.1",
+        "socket.io": "^2.0.3",
+        "uuid": "^3.1.0",
+        "wechat-crypto": "0.0.2",
+        "xml2json": "^0.11.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.12.1"
+    }
+}
